@@ -1,5 +1,5 @@
 # Grabe_.
-[![Discord](https://img.shields.io/discord/716390832034414685?logo=discord&style=for-the-badge)](https://discord.gg/dB4A8K6GDJ)
+[![Discord](https://img.shields.io/discord/989016906071703652?logo=discord&style=for-the-badge)]([https://discord.gg/dB4A8K6GDJ])
 ![Python](https://img.shields.io/badge/Python-3.8-red?style=for-the-badge)
 ![License](https://img.shields.io/github/license/INFINITE31/Grabe_.?style=for-the-badge)
 
