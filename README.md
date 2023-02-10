@@ -9,4 +9,7 @@ This source code is provided for educational-purposes, you can clearly customise
 
 If you are looking to contribute, or have found some issues with the bot, don't hesistate to open a pull-request or an issue, and help us improve the bot. 
 
-Thank you.
+Thank you,
+
+**Impressed by my work?**
+Sponsor me @ UPI ID - **infiinite.famc@idfcbank**
