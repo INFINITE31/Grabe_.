@@ -67,7 +67,7 @@ class idk(commands.Cog):
 
     print(f"{self.client.user} has connected!")
 
-    with open("open.json","r") as f:
+    with open("/assets/open.json","r") as f:
       time = json.load(f)
     date1 = datetime.datetime.utcnow()
     date = date1.strftime("%Y-%m-%d %H:%M:%S.%f")
