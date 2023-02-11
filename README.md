@@ -11,4 +11,6 @@ If you are looking to contribute, or have found some issues with the bot, don't 
 
 Thank you,
 
-**Impressed by my work?**\nSponsor me -\nUPI ID - **infiinite.famc@idfcbank**
+**Impressed by my work ? Help me out by sponsoring me!** 
+
+UPI ID - **infiinite.famc@idfcbank**
