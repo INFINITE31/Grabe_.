@@ -13,7 +13,7 @@ import cooldowns
 
 choice = {"r/memes":"r/memes","r/animememes":"r/animememes","r/antijoke":"r/antijoke","r/me_irl":"r/me_irl","r/dankmemes":"r/dankmemes","r/darkmemers":"r/darkmemers","r/F1meme":"r/F1meme"}
 
-Reddit = Reddit(client_id = "cZIjHZT1dwFP_F2MrfgaZw" , client_secret = os.getenv('secret') , username = "Infinix31" , password = "BANCHODDX1" , user_agent = "infinite's_Bot")
+Reddit = Reddit(client_id = "client_id" , client_secret = os.getenv('secret') , username = "username" , password = "password" , user_agent = "user_agent")
 
 
 class memesla(commands.Cog):
