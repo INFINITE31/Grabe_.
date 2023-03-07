@@ -16,13 +16,6 @@ from nextcord.ext import application_checks
 import cooldowns
 
 
-cluster = MongoClient(os.getenv("prefixd"))
-database = cluster["prefix"]
-collection = database["prefix"]
-
-
-
-
 class mute(commands.Cog):
   def __init__(self,client):
      self.client = client
@@ -48,20 +41,6 @@ class mute(commands.Cog):
 
         await interaction.send(f"<a:_:913392916095963196> {user.mention} was sucessfully muted!")
 
-        try:
-
-          collec = collection.find_one({"Guild":interaction.guild.id})
-          channel = collec["Channel"]
-          fc = await interaction.guild.fetch_channel(int(channel))
-
-          embed = nextcord.Embed(title = "Member muted",description = f"> **{user}** Was Muted\n> By **{interaction.user}**\n> Reason **{reason}**",color = nextcord.Colour.blurple())
-          embed.set_thumbnail(url = interaction.guild.icon.url)
-          embed.timestamp = datetime.datetime.utcnow()
-          await fc.send(embed = embed)
-
-        except:
-          pass
-    
         try:
 
           embedmm = nextcord.Embed(title = "You were muted",description = f"You were muted in {interaction.guild}\n> For : **{reason}**\n> Time : {time}",color = 0xED4245)
