@@ -12,11 +12,6 @@ import datetime
 from nextcord.ext import application_checks
 import cooldowns
 
-cluster = MongoClient(os.getenv("prefixd"))
-database = cluster["prefix"]
-collection = database["prefix"]
-
-
 
 class ban(commands.Cog):
     def __init__(self,client):
